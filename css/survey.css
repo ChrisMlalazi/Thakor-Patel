@@ -1,0 +1,43 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+
+.newsletter{
+  text-align: right;
+}
+
+.button1 {
+  font-size: 1em;
+}
+
+#fullName,
+#emailAddress,
+#confirmEmail,
+#signUpButton {
+    display: none;
+}
+
+.em2 {
+  color: #ff0;
+  font-size: .8em;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
