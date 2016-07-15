@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
-  background: #CBD6FF;
+  background: #ecc363;
  
 
 }
@@ -34,12 +34,11 @@ HOME PAGE
 
 .main-nav {
   width: 100%;
-  background: #CBD6FF;
-  padding: 10px;
+  background: #ecc363;
   position: fixed;
   text-align: center;
-  border-bottom: 2px solid white;
   margin-top: -200px;
+  border-bottom: .5px solid white;
 }
 
 
@@ -58,7 +57,7 @@ HOME PAGE
 }
 
 .nav li:hover {
-  background-color: grey;
+  background-color: #e6e6fa;
 }
 
 .nav a {
@@ -74,9 +73,10 @@ HOME PAGE
 /* Card */
 
 .card {
-  background-color: white;
+  background-color: #ecc363;
   color: black;
-  padding: 10px;
+  padding: 20px 60px;
+  max-width: 1050px;
 }
 
 /******************** 
@@ -86,12 +86,13 @@ HEADER
 
 .header {
   text-align: center;
-  background: url('../img/CI2A0676.jpg');
+  background: url('../img/_MG_4432_2.jpg');
   background-size: cover;
   background-repeat:  no-repeat; 
   background-position: center;
   overflow: hidden;
   height: 300px;
+   max-width: 960px;
   margin-top: 200px;
   border-bottom: 1px solid green;
    
@@ -209,7 +210,7 @@ a.social:hover {
 MEDIA QUERIES 
 *************************/
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 550px) {
 
   .nav li {
     display: inline-block;
@@ -217,25 +218,39 @@ MEDIA QUERIES
 
   .main-nav {
   width: 100%;
-
   padding: 10px;
   position: fixed;
   text-align: center;
-  border-bottom: 2px solid white;
-  margin-top: -100px;
+  margin-top: -110px;
+}
+
+.thakor {
+  float: left;
+  padding-top: 8px;
+  margin-left: 20px;
+}
+
+.nav {
+  padding-top: 8px;
+  float: right;
+  margin-right: 20px;
 }
 
 .header {
-  height: 300px;
-  margin-top: 100px;
-  border-bottom: 1px solid green;
-   
+  max-width: 1050px;
+  height: 450px;
+  margin-top: 110px;
+  padding: 10px;   
+}
+
+.header_inner {
+
 }
 
 
 
 .header2 {
-  height: 100vh;
+  /*height: 100vh;*/
   margin-top: 100px;
   border-bottom: 1px solid green;
    
