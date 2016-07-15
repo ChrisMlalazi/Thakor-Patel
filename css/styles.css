@@ -10,8 +10,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #faf0e6;
-  background: #2d2b30;
+  color: black;
+  background: #CBD6FF;
  
 
 }
@@ -20,51 +20,33 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
 }
 
-a:hover {
-  color: #999;
-}
+/*************
 
-/* Section Styles */
+HOME PAGE
+***************/
+
+
+
+/*  Main Nav */
+
 
 .main-nav {
   width: 100%;
-  background: grey;
-  min-height: 30px;
+  background: #CBD6FF;
   padding: 10px;
   position: fixed;
   text-align: center;
   border-bottom: 2px solid white;
   margin-top: -200px;
-
 }
+
 
 .main-nav:hover {
-  border-bottom: 2px solid orange;
+  border-bottom: 5px solid orange;
 }
 
-
-
-
-.nav {
- /* display: flex;*/
-  /*justify-content: space-around;*/
-  
-  font-weight: 700;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  margin-top: 10px;
-  
-
- 
-}
-
-.thakor {
- 
-}
 
 .nav li {
   padding: 10px 10px 10px 10px;
@@ -72,187 +54,102 @@ a:hover {
   border: 1px white solid;
   border-radius: 10px;
   margin-bottom: 10px;
-/*  display: inline-block;*/
-
-
+    list-style: none;
 }
-
-
-
-
-button {
-  height: 30px;
-  border-radius: 10px;
-  border: 2px solid #00ff7f;  
-  transition: transform .5s;
-}
-
 
 .nav li:hover {
   background-color: grey;
 }
 
-
-button:hover {
-  background-color: #FFA500;
-  transform: scale(1.05, 1.05);
-}
-
-/*.nav .name {
-  display: block;
-  margin-right: auto;
-  color: white;
-  letter-spacing: 5px;
-}*/
-
-
-
 .nav a {
+  color: black; 
   transition: all .5s;
+  font-weight: bold;
 }
 
-.nav a {
-  color: #FFFFFF;
-  /*font-weight: bold;*/
- 
-}
 .nav a:hover {
   color: #FFA500;
 }
 
-header {
+/* Card */
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+/******************** 
+
+HEADER
+**********************/
+
+.header {
   text-align: center;
   background: url('../img/CI2A0676.jpg');
   background-size: cover;
   background-repeat:  no-repeat; 
   background-position: center;
   overflow: hidden;
+  height: 300px;
   margin-top: 200px;
-  height: 280px;
+  border-bottom: 1px solid green;
+   
 }
 
 .profile_img {
   border-radius: 100%;
-   width: 120px;
-  height: 120px;
-  padding: 0;
+   width: 130px;
+  height: 130px;
+  margin-top: 100px;
   border: 2px solid white;
   opacity: 1;
+  transition: .5s;
+
 }
+
+  .profile_img:hover {
+    transform: scale(1.2, 1.2);
+    border: .05px solid orange;
+  }
+
+/*************
+
+GALLERY 
+
+*****************/
 
 .header2 {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 0 5px 5px 5px;
-  margin-top: 80px;
-  padding-top: 10px;
- }
-
- header h1 {
-  color: black;
-  font-size: 3em;
-  text-shadow: 6px 6px 4px #708090;
- }
-
- header h2 {
-  color: #00ff7f;
-  font-size: 1.5em;
-  font-weight: bold;
- }
-
-.name{
-  font-weight: 300;
-}
-
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  text-align: left;
-  border-top: 4px solid white;
-  clear: both;
-}
-.card:hover {
-  border-color: #FFA500;
-}
-
-.photo{
-  display: block;
-  width: 200px;
-  height: 0%;
-  margin: 0 auto;
-}
-
-.information{
-  width: 100%;
   text-align: center;
-}
-
-.buy {
-  color: white;
-  border: 1px solid yellow;
-  font-size: 1em;
-  padding: 5px;
-  border-radius: 10%;
-}
-
-.buy:hover{
-  color: white;
+  overflow: hidden;
   background-color: red;
+  height: 700px;
+  margin-top: 200px;
+   /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
-.heading{
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #00ff7f;
-  margin-top: 10px;
+.header2 p{
+  padding: 80px;
 }
 
-/* SURVEY PAGE */
-
-.container p{
-  color: #87cefa;
+.header3 p{
+  padding: 80px;
 }
 
-fieldset {
-  margin-top: 9px;
-  border: none;
-  
-}
 
-fieldset:hover {
-  border: .1px dotted orange;
-}
-legend {
-  font-size: 1.3em;
-}
 
-input, textarea, select, fieldset {
-transition: all .5s;
+/*************
 
-}
- select:focus {
-    background-color: #7fffd4;
-    }
+ABOUT
+***************/
 
-input:focus {
-    background-color: #7fffd4;
-    outline: none;
-
-}
-
-textarea:focus {
-  background-color: #7fffd4;
-  outline: none;
-  
-}
-
-input:hover {
-   
-  border: 2px solid orange;
-
-}
-
-textarea:hover {
-  border: 2px solid orange;
+.header3 {
+  text-align: center;
+  overflow: hidden;
+  background-color: green;
+  height: 700px;
+  margin-top: 200px;
+   /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
 /* Footer styles */
@@ -266,7 +163,8 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
-  color: #87cefa;
+  color: black;
+  font-weight: bold;
 }
 
 footer ul {
@@ -277,44 +175,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+  color: black;
 }
 
 
 
- .card1 img {
-    border-radius: 10px;
-    max-width: 100%;
-    border: 1px solid white;
-    transition-property: box-shadow;
-    transition-duration:  .4s;
-    margin-bottom: 30px;
-    transition: transform .5s;
-
-  }
-
-
-.card1 img:hover {
-   transform: scale(1.05, 1.05);
-   border: 1px solid yellow;
-
-}
-
-.card2 img {
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 0;
-  transition: transform .5s;
-}
-
-.card2 img:hover {
-   transform: scale(1.05, 1.05);
-   border: 1px solid yellow;
-}
-
-
-.card1 img:hover {  
-  box-shadow: 0 0 15px rgba(0,0, 0, .7); 
-}
 
 a.social {
   display: inline-block;
@@ -322,8 +187,10 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .8;
+  opacity: 1;
   transition: all .5s;
+  background-color: #708090;
+  margin-top: 50px;
 }
 
 a.social:hover {
@@ -336,74 +203,77 @@ a.social:hover {
   clear: both;
 }
 
-/* Styles for larger screens */
+
+
+/************************ 
+MEDIA QUERIES 
+*************************/
+
 @media screen and (min-width: 840px) {
 
-  .flex {
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: flex;
-    max-width: 1200px;
-    -ms-flex-pack: distribute;
-  }
-
   .nav li {
-  padding: 10px 10px 10px 10px;
-  display: inline-block;
-  width: 120px;
-  border: 1px white solid;
-  margin-left: 15px;
-  border-radius: 10px;
+    display: inline-block;
+  }
+
+  .main-nav {
+  width: 100%;
+
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-top: -100px;
+}
+
+.header {
+  height: 300px;
+  margin-top: 100px;
+  border-bottom: 1px solid green;
+   
+}
+
+
+
+.header2 {
+  height: 100vh;
+  margin-top: 100px;
+  border-bottom: 1px solid green;
+   
+}
+
+.header2 p{
+  padding: 80px;
+}
+
+.main-nav3{
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-top: -100px;
+}
+
+.header3 {
+  height: 600px;
+  margin-top: 100px;
+  border-bottom: 1px solid green;  
+}
+
+.header3 p{
+  padding: 80px;
+}
+
+
+.profile_img {
+ 
+   width: 170px;
+  height: 170px;
+  margin-top: 70px;
+  border: 2px solid white;
+ 
 
 }
 
-  header {
-    min-height: 360px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
 
   }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  .card{
-    margin: 40px auto;
-    padding: 20px 40px 40px;
-    width: 80%;
-    max-width: 1000px;
-  }
-
-  .photo{
-    width: 30%;
-    margin: 20px 30px;
-  }
-
-  .information{
-    text-align: left;
-    background-color: rgba(192,192,192,0.2);
-    border-radius: 20px;
-    padding: 10px;
-    border: 1px solid white;
-  }
-
-  .information:hover {
-    background-color: rgba(192,192,192,0.5);
-    border: 1px solid yellow;
-  }
-
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
-}
