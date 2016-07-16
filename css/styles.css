@@ -53,7 +53,7 @@ HOME PAGE
   border: 1px grey solid;
   border-radius: 10px;
   margin-bottom: 10px;
-    list-style: none;
+  list-style: none;
 }
 
 .nav li:hover {
@@ -241,6 +241,12 @@ MEDIA QUERIES
 }
 
 
+.nav li {
+  padding-right: 5px;
+   padding-left: 5px;
+}
+
+
 .header {
   max-width: 960px;
   height: 450px;
@@ -301,7 +307,7 @@ footer {
 }
 
 .footer_social {
-
+float: right;
   clear: both;
   margin-right: 20px;
 
@@ -310,18 +316,18 @@ footer {
 .copyright {
   float: left;
   clear: both;
-  margin-top: -220px;
+  margin-top: -20px;
   margin-left: 20px;
   font-color: white;
 
 }
 
-footer p {
+/*footer p {
   transform: rotate(-90deg);
   position: relative;
   right: 100px;
   margin-bottom: -100px;
-}
+}*/
 
 
   }
