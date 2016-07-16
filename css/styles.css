@@ -86,7 +86,7 @@ HEADER
 
 .header {
   text-align: center;
-  background: url('../img/_MG_4432_2.jpg');
+  background-image: url('../img/main_profile.jpg');
   background-size: cover;
   background-repeat:  no-repeat; 
   background-position: center;
@@ -167,7 +167,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
-  color: black;
+  color: green;
   font-weight: bold;
 }
 
@@ -219,13 +219,7 @@ MEDIA QUERIES
     display: inline-block;
   }
 
-  .main-nav {
-  width: 100%;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-  margin-top: -110px;
-}
+
 
 .thakor {
   float: left;
@@ -238,6 +232,14 @@ MEDIA QUERIES
   float: right;
   margin-right: 20px;
 }
+  .main-nav {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  margin-top: -110px;
+}
+
 
 .header {
   max-width: 960px;
@@ -255,7 +257,7 @@ MEDIA QUERIES
 .header2 {
   /*height: 100vh;*/
   margin-top: 100px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid green;
    
 }
 
@@ -290,7 +292,35 @@ MEDIA QUERIES
   margin-top: 70px;
   border: 2px solid white;
  
+}
 
+footer {
+
+  margin-top: -80px;
+  clear: both;
+}
+
+.footer_social {
+
+  clear: both;
+  margin-right: 20px;
+
+}
+
+.copyright {
+  float: left;
+  clear: both;
+  margin-top: -220px;
+  margin-left: 20px;
+  font-color: white;
+
+}
+
+footer p {
+  transform: rotate(-90deg);
+  position: relative;
+  right: 100px;
+  margin-bottom: -100px;
 }
 
 
