@@ -34,11 +34,12 @@ HOME PAGE
 
 .main-nav {
   width: 100%;
-  background: #f0f8ff;
+  background: #ecc363;
+ /* background: #f0f8ff;*/
   position: fixed;
   text-align: center;
   margin-top: -200px;
-  border-bottom: 1px solid white;
+ /* border-bottom: 1px solid white;*/
   z-index: 1;
 }
 
