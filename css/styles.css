@@ -39,6 +39,7 @@ HOME PAGE
   text-align: center;
   margin-top: -200px;
   border-bottom: 1px solid white;
+  z-index: 1;
 }
 
 
@@ -46,17 +47,22 @@ HOME PAGE
   border-bottom: 5px solid orange;
 }
 
-
 .nav li {
+  list-style: none;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+
+.nav li a{
   padding: 10px 10px 10px 10px;
-  width: 120px;
   border: 1px grey solid;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   list-style: none;
 }
 
-.nav li:hover {
+.nav li a:hover {
   background-color: #e6e6fa;
 }
 
@@ -218,7 +224,15 @@ MEDIA QUERIES
   .nav li {
     display: inline-block;
   }
-
+ 
+ .nav li a{
+  padding: 10px 10px 10px 10px;
+  width: 160px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
 
 
 .thakor {
@@ -232,6 +246,7 @@ MEDIA QUERIES
   float: right;
   margin-right: 20px;
 }
+
   .main-nav {
   width: 100%;
   padding: 10px;
