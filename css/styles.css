@@ -38,10 +38,17 @@ HOME PAGE
  /* background: #f0f8ff;*/
   position: fixed;
   text-align: center;
-  margin-top: -200px;
+  margin-top: -230px;
  /* border-bottom: 1px solid white;*/
   z-index: 1;
+  height: 200px;
+  transition: .1s;
 }
+
+.main-nav:hover{
+  background-color: #ffe4b5;
+}
+
 
 
 .main-nav:hover {
@@ -51,8 +58,10 @@ HOME PAGE
 .nav li {
   list-style: none;
   border-radius: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   margin-top: 15px;
+  padding: 5px;
+
 }
 
 .nav li a{
@@ -69,7 +78,7 @@ HOME PAGE
 
 .nav a {
   color: black; 
-  transition: all .5s;
+  transition: all 2s;
   font-weight: bold;
 }
 
@@ -100,7 +109,7 @@ HEADER
   overflow: hidden;
   height: 300px;
    max-width: 960px;
-  margin-top: 200px;
+  margin-top: 230px;
   border-radius: 10px;
   border-bottom: 1px solid green;
   transition: 4s;
@@ -259,6 +268,7 @@ MEDIA QUERIES
   position: fixed;
   text-align: center;
   margin-top: -110px;
+  height: 100px;
 }
 
 
