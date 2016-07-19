@@ -140,6 +140,10 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
 GALLERY 
 
 *****************/
+
+.construction {
+  color: brown;
+}
 .under {
   padding-top: 50px;
 }
