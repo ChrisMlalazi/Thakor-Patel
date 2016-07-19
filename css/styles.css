@@ -42,7 +42,7 @@ HOME PAGE
  /* border-bottom: 1px solid white;*/
   z-index: 1;
   height: 200px;
-    transition: 1s;
+  transition: 1s;
 
 }
 
@@ -148,18 +148,73 @@ GALLERY
   text-align: center;
   overflow: hidden;
   background-color: grey;
-  height: 700px;
-  margin-top: 200px;
+  height: auto;
+  margin-top: 230px;
    /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
-.header2 p{
-  padding: 80px;
-}
 
 .header3 p{
   padding: 80px;
 }
+
+
+.nature {
+  margin-left: 40px;
+  color: #696969;
+  font-family: 'kalam', sans-serif; 
+}
+
+.gallery {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+img:hover {
+transform:skewY(1.5deg);
+
+}
+
+.lightbox  {
+  list-style: none;
+  max-width: 980px;
+  padding: 10px;
+  margin: 10px auto;
+
+  
+}
+
+ .lightbox img {
+    transition: transform .5s;
+    width: 70%;
+    height: 70%;
+    border: 3px solid white;
+    transition-property: box-shadow;
+    transition-duration:  .4s;
+    margin-bottom: 20px;
+    margin: 20px;
+
+    
+
+ }
+
+ .lightbox li {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);     
+}
+  
+
+img:hover {
+  
+  box-shadow: 0 0 15px rgba(0,0, 0, .7);
+ 
+
+}
+
+
+
 
 
 
@@ -228,11 +283,38 @@ a.social:hover {
   clear: both;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+
+
+
+
 
 
 /************************ 
 MEDIA QUERIES 
 *************************/
+
+@media screen and (min-width: 534px){ 
+
+  .lightbox img {
+   /*max-width: 100%;*/
+   border: 1px solid white;
+   transition-property: box-shadow;
+   transition-duration:  .4s;
+   margin-bottom: 30px;
+   margin-left: 30px;
+   float: left;
+
+ }
+
+}
 
 @media screen and (min-width: 550px) {
 
@@ -292,7 +374,6 @@ MEDIA QUERIES
 
 
 .header2 {
-  /*height: 100vh;*/
   margin-top: 100px;
   border-bottom: 1px solid green;
    
@@ -362,3 +443,110 @@ float: right;
 
 
   }
+
+  @media screen and (min-width: 601px) {
+
+    /*********************
+Gallery
+**********************/
+
+.lightbox li {
+    display: inline-block;
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 6%;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.06);
+     border-radius: 10px;
+    
+}
+
+.lightbox img {
+   width: 85%;
+   height: 200px;
+}
+
+
+
+.nature {
+  margin-top: 10px;
+  margin-left: 40px;
+  color: #696969;
+  font-family: 'kalam', sans-serif; 
+}
+
+.inter {
+  margin-bottom: 5px;
+}
+
+
+  }
+
+
+@media screen and (min-width: 765px) {
+
+/*******************
+ 
+ Gallery
+
+ ********************/
+
+
+.galleryTitle{
+  float: left;
+  margin-left: 50px;
+  margin-top: 65px;
+  color: #4b0082;
+  font-size: 2em;
+
+}
+
+.nav2 {
+  height: 80px;
+  background-color: white;
+}
+
+.field {
+  background-color: red;
+  height: 80px;
+}
+
+.lightbox li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 37px;
+    width: 28%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.1);     
+}
+
+.lightbox li:nth-child(3) {
+
+  padding-top: 1.2%;
+
+}
+
+/***************************
+
+OVERLAY
+****************************/
+#overlay img {
+  max-height: 50vh;
+  max-width: 80%;
+  border: 2px solid  white;
+  margin-top: 10%;
+}
+
+
+}
+
+
+
+
+
+
+
+
