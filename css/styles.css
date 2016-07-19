@@ -227,6 +227,19 @@ img:hover {
 ABOUT
 ***************/
 
+.drawing {
+  text-align: center;
+  background-image: url('../img/IMG_9777.jpg');
+  background-size: cover;
+  background-repeat:  no-repeat; 
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 230px;
+  padding-top:  600px;
+
+  }
+
 .header3 {
   text-align: center;
   overflow: hidden;
@@ -318,7 +331,6 @@ MEDIA QUERIES
 
  }
 
-}
 
 @media screen and (min-width: 550px) {
 
@@ -355,6 +367,42 @@ MEDIA QUERIES
   text-align: center;
   margin-top: -110px;
   height: 100px;
+}
+
+
+
+ /***About****/
+
+ .wrapped {
+  margin-top: 100px;
+ 
+ }
+
+ .drawing {
+  text-align: center;
+  background-image: url('../img/IMG_9777.jpg');
+  background-size: cover;
+  background-repeat:  no-repeat; 
+  background-position: center;
+  overflow: hidden;
+  width: 50%;
+  margin-top: 110px;
+  padding-top:  600px;
+  float: left;
+  margin-left: 20px;
+
+  }
+
+.header3 {
+  width: 40%;
+  margin-top: 110px;
+  border-bottom: 1px solid green;  
+  float: right;
+  margin-right: 20px;
+}
+
+.header3 p{
+  padding: 80px;
 }
 
 
@@ -396,15 +444,7 @@ MEDIA QUERIES
   margin-top: -100px;
 }
 
-.header3 {
-  height: 600px;
-  margin-top: 100px;
-  border-bottom: 1px solid green;  
-}
 
-.header3 p{
-  padding: 80px;
-}
 
 
 .profile_img {
@@ -530,6 +570,20 @@ Gallery
 .lightbox li:nth-child(3) {
 
   padding-top: 1.2%;
+
+}
+
+ .drawing {
+  text-align: center;
+  background-image: url('../img/IMG_9777.jpg');
+  background-size: cover;
+  background-repeat:  no-repeat; 
+  background-position: center;
+  overflow: hidden;
+  margin-top: 110px;
+  padding-top:  600px;
+
+  }
 
 }
 
