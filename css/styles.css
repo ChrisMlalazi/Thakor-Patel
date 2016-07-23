@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+ /* Global Layout Set-up */
 * {
   box-sizing: border-box;
    max-width: 1600px;
@@ -42,7 +42,7 @@ HOME PAGE
  /* border-bottom: 1px solid white;*/
   z-index: 1;
   height: 200px;
-  transition: 1s;
+  /*transition: 1s;*/
 
 }
 
@@ -112,7 +112,7 @@ HEADER
   margin-top: 230px;
   border-radius: 10px;
   border-bottom: 1px solid green;
-  transition: 4s;
+ /* transition: 4s;*/
    box-shadow: 0 0 8px 10px white inset; 
 /*  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -159,7 +159,7 @@ GALLERY
 
 
 .header3 p{
-  padding: 80px;
+  padding: 20px;
 }
 
 
@@ -227,27 +227,30 @@ img:hover {
 ABOUT
 ***************/
 
+.wrapped {
+  max-width: 1060px;
+  margin: auto;
+}
+
 .drawing {
   text-align: center;
-  background-image: url('../img/IMG_9777.jpg');
   background-size: cover;
+  background-image: url('../img/Thakor_about.jpg');
   background-repeat:  no-repeat; 
   background-position: center;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   margin-top: 230px;
-  padding-top:  600px;
+  border: 2.5px solid white;
+  padding-top:  370px;
+  border-radius: 10px;
 
+  /*width: 100%;
+  margin-top: 230px;
+  border: 2.5px solid white;
+  padding-top:  600px;*/
   }
 
-.header3 {
-  text-align: center;
-  overflow: hidden;
-  background-color: green;
-  height: 700px;
-  margin-top: 200px;
-   /*background-color: rgba(0, 0, 0, 0.1);*/
-}
 
 /* Footer styles */
 
@@ -255,26 +258,24 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  clear: both;
 }
 
 footer .copyright {
   top: -8px;
   font-size: .75em;
-  color: green;
+  color: grey;
+  font-weight: ;
+}
+
+footer .copyright a {
+  color: grey;
   font-weight: bold;
 }
 
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+footer .copyright a:hover{
+   color: black;
 }
-
-footer ul li {
-  display: inline-block;
-  color: black;
-}
-
 
 
 
@@ -365,46 +366,24 @@ MEDIA QUERIES
   padding: 10px;
   position: fixed;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -160px;
   height: 100px;
+  
 }
 
+.main-nav3 {
 
+    margin-top: -110px;
 
- /***About****/
+}
 
- .wrapped {
-  margin-top: 100px;
- 
- }
-
- .drawing {
-  text-align: center;
-  background-image: url('../img/IMG_9777.jpg');
-  background-size: cover;
-  background-repeat:  no-repeat; 
-  background-position: center;
-  overflow: hidden;
-  width: 50%;
+/*about page*/
+.drawing {
+  width: 80%;
+  border: 2.5px solid white;
+  padding-top:  400px;
   margin-top: 110px;
-  padding-top:  600px;
-  float: left;
-  margin-left: 20px;
-
-  }
-
-.header3 {
-  width: 40%;
-  margin-top: 110px;
-  border-bottom: 1px solid green;  
-  float: right;
-  margin-right: 20px;
 }
-
-.header3 p{
-  padding: 80px;
-}
-
 
 .nav li {
   padding-right: 5px;
@@ -435,16 +414,14 @@ MEDIA QUERIES
   padding: 80px;
 }
 
-.main-nav3{
+/*.main-nav3{
   width: 100%;
   padding: 10px;
   position: fixed;
   text-align: center;
   border-bottom: 2px solid white;
   margin-top: -100px;
-}
-
-
+}*/
 
 
 .profile_img {
@@ -456,39 +433,51 @@ MEDIA QUERIES
  
 }
 
-footer {
-
-  margin-top: -80px;
-  clear: both;
-}
-
-.footer_social {
-float: right;
-  clear: both;
-  margin-right: 20px;
-
-}
-
-.copyright {
-  float: left;
-  clear: both;
-  margin-top: -20px;
-  margin-left: 20px;
-  font-color: white;
-
-}
-
-/*footer p {
-  transform: rotate(-90deg);
-  position: relative;
-  right: 100px;
-  margin-bottom: -100px;
-}*/
-
 
   }
 
   @media screen and (min-width: 601px) {
+
+    /***About****/
+
+ .wrapped {
+  margin-top: 100px;
+ 
+ }
+
+ .main-nav3{
+  border-bottom: 2px solid grey;
+ }
+
+ .drawing {
+  text-align: center;
+  background-size: cover;
+  background-repeat:  no-repeat; 
+  background-position: center;
+  overflow: hidden;
+  width: 50%;
+  margin-top: 20px;
+  padding-top:  500px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 10px;
+
+  }
+
+.header3 {
+  width: 45%;
+  margin-top: 20px;
+  border-bottom: 1px solid green;  
+  float: right;
+  margin-right: 5px;
+  background-color: green;
+}
+
+.header3 p{
+  padding: 10px;
+}
+
+
 
     /*********************
 Gallery
@@ -525,6 +514,15 @@ Gallery
   margin-bottom: 5px;
 }
 
+  .main-nav {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  margin-top: -110px;
+  height: 100px;
+ 
+}
 
   }
 
@@ -553,7 +551,7 @@ Gallery
 }
 
 .field {
-  background-color: red;
+ 
   height: 80px;
 }
 
@@ -575,17 +573,15 @@ Gallery
 
  .drawing {
   text-align: center;
-  background-image: url('../img/IMG_9777.jpg');
+
   background-size: cover;
   background-repeat:  no-repeat; 
   background-position: center;
-  overflow: hidden;
-  margin-top: 110px;
-  padding-top:  600px;
-
-  }
+  
 
 }
+
+
 
 /***************************
 
