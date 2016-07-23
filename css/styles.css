@@ -244,6 +244,7 @@ ABOUT
   border: 2.5px solid white;
   padding-top:  370px;
   border-radius: 10px;
+    box-shadow: 0 0 8px 10px white inset; 
 
   /*width: 100%;
   margin-top: 230px;
