@@ -145,6 +145,21 @@ GALLERY
 /******************
 Light Gallery
 *******************/
+  
+
+
+  .fa-shopping-cart {
+    font-size: 2em;
+    color: black;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .fa-shopping-cart:hover {
+    background-color: grey;
+  }
+  
 
  .gallery_blurb {
   margin-top: 100px;
