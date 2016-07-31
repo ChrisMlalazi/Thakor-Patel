@@ -148,7 +148,7 @@ Light Gallery
   
 
 
-  .fa-shopping-cart {
+.fa-shopping-cart {
     font-size: 2em;
     color: black;
     padding: 5px;
@@ -156,12 +156,12 @@ Light Gallery
     border-radius: 10px;
   }
 
-  .fa-shopping-cart:hover {
+.fa-shopping-cart:hover {
     background-color: grey;
   }
   
 
- .gallery_blurb {
+.gallery_blurb {
   margin-top: 100px;
   margin-bottom: 10px;
   font-size: 1em;
