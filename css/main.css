@@ -616,14 +616,13 @@ FOOTER
 *************/
 
 
-footer {
+#bottom {
 /*  display: none;*/
 /*  background-color: red;*/
-   position: relative;
-   top: 450px;
-   right: 300px;
-   transform: rotate(90deg);
-   
+    position: fixed;
+    top: 630px;
+    bottom: 200px;
+ 
   
 }
 }
