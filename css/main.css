@@ -44,13 +44,14 @@ HOME PAGE
 }
 
 .main-nav:hover{
-  background-color: #ffe4b5;
+ /* background-color: #ffe4b5;*/
+  background-color: rgba(0,0,0,0.4); 
 }
 
 
 
 .main-nav:hover {
-  border-bottom: 5px solid orange;
+  border-bottom: 1px solid white;
 }
 
 .nav li {
@@ -318,30 +319,46 @@ a.social:hover {
 
 
 
-
-
-
-
 /************************ 
 MEDIA QUERIES 
 *************************/
+ @media screen and (min-width: 500px) {
 
+
+
+#lightgallery a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 40%;
+    background-color: transparent;
+     border-radius: 10px;
+    
+}
+
+
+}
 
 
 @media screen and (min-width: 550px) {
 
+/************
+HOME PAGE
+*************/
 
 .main-nav {
   width: 100%;
   padding: 10px;
   position: fixed;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -150px;
   height: 100px;
+
   
 }
 
-  .nav li {
+.nav li {
     display: inline-block;
   }
  
@@ -357,8 +374,9 @@ MEDIA QUERIES
 
 .thakor {
   float: left;
+  font-size: 1.95em;
   padding-top: 8px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .nav {
@@ -375,7 +393,39 @@ MEDIA QUERIES
 
 }
 
-/*about page*/
+.header {
+  max-width: 960px;
+  width: 90%;
+  margin-top: 150px;
+}
+
+.card {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+/**********
+GALLLERY
+
+**********/
+
+.gallery_blurb  {
+  margin-top: 80px;
+}
+
+.sale_icon  {
+  margin-top: -140px;
+  margin-bottom: -50px;
+}
+
+/*************
+ABOUT PAGE
+***************/
+
 .drawing {
   width: 80%;
   border: 2.5px solid white;
@@ -387,20 +437,6 @@ MEDIA QUERIES
   padding-right: 5px;
    padding-left: 5px;
 }
-
-
-.header {
-  max-width: 960px;
-  height: 450px;
-  margin-top: 110px;
-  padding: 10px;   
-}
-
-.header_inner {
-
-}
-
-
 
 .header2 {
   margin-top: 100px;
@@ -426,6 +462,19 @@ MEDIA QUERIES
 
   @media screen and (min-width: 601px) {
 
+    /*** HOME ****/
+
+.main-nav {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+ /* margin-top: -150px;*/
+  height: 100px;
+ 
+}
+
+
     /***About****/
 
  .wrapped {
@@ -435,6 +484,7 @@ MEDIA QUERIES
 
  .main-nav3{
   border-bottom: 2px solid grey;
+
  }
 
  .drawing {
@@ -467,7 +517,7 @@ MEDIA QUERIES
 
 
 
-    /*********************
+/*********************
 Gallery
 **********************/
 
@@ -502,41 +552,43 @@ Gallery
   margin-bottom: 5px;
 }
 
-  .main-nav {
-  width: 100%;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-  margin-top: -110px;
-  height: 100px;
- 
-}
+
 
   }
 
-  @media screen and (min-width: 500px) {
-
-
-
-#lightgallery a {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 40%;
-    height: 40%;
-    background-color: transparent;
-     border-radius: 10px;
-    
-}
-
-
-}
+ 
 
 @media screen and (min-width: 737px) {
 
+#home_page {
+
+   background-image: url('../img/main_profile.jpg');
+  background-size: cover;
+  background-repeat:  no-repeat; 
+  background-position: center;
+  height: 100vh;
+}
+
+.card {
+  display: none;
+}
 
 
-  .lightbox  {
+.home_nav{
+  background-color: transparent;
+  margin-top: 0;
+ 
+}
+
+
+.header {
+
+  display: none;
+
+}
+
+
+.lightbox  {
     list-style: none;
     max-width: 980px;
     padding: 10px;
@@ -556,6 +608,23 @@ Gallery
 #lightgallery img {
    width: 85%;
    height: 200px;
+}
+
+/************
+
+FOOTER
+*************/
+
+
+footer {
+/*  display: none;*/
+/*  background-color: red;*/
+   position: relative;
+   top: 450px;
+   right: 300px;
+   transform: rotate(90deg);
+   
+  
 }
 }
 
