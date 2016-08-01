@@ -1,4 +1,6 @@
  /* Global Layout Set-up */
+
+
 * {
   box-sizing: border-box;
    max-width: 1300px;
@@ -147,7 +149,10 @@ GALLERY
 Light Gallery
 *******************/
   
-
+.buy_icon {
+ position: relative;
+ top: 10px;
+}
 
 .fa-shopping-cart {
     font-size: 2em;
@@ -338,9 +343,6 @@ MEDIA QUERIES
 }
 
 
-}
-
-
 @media screen and (min-width: 550px) {
 
 /************
@@ -413,14 +415,18 @@ GALLLERY
 
 **********/
 
-.gallery_blurb  {
-  margin-top: 80px;
+#lightgallery {
+    margin-top: -70px;
+
 }
 
-.sale_icon  {
-  margin-top: -140px;
-  margin-bottom: -50px;
+.gallery_blurb {
+  width: 100%;
+  margin-top: 30px; 
+  border-radius: 100px;
 }
+
+
 
 /*************
 ABOUT PAGE
@@ -560,6 +566,18 @@ Gallery
 
 @media screen and (min-width: 737px) {
 
+/*  GALLERY */
+
+.sale_icon {
+  margin-bottom: -100px;
+}
+
+.gallery_blurb {
+  width: 70%;
+  height: 100%;
+  margin-top: 30px;
+}
+
 #home_page {
 
    background-image: url('../img/main_profile.jpg');
@@ -620,7 +638,7 @@ FOOTER
 /*  display: none;*/
 /*  background-color: red;*/
     position: fixed;
-    top: 630px;
+    top: 610px;
     bottom: 200px;
  
   
