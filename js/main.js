@@ -1,8 +1,9 @@
-// $('.navicon').on('click', function (e) {
-//   e.preventDefault();
-//   $(this).toggleClass('navicon--active');
-//   $('.toggle').toggleClass('toggle--active');
-// });
+$('.hamburger').on('click', function(e) {
+  // Prevent link from jumping to the top of the page
+  e.preventDefault();
+  // If menu is already showing, slide it up. Otherwise, slide it down.
+  $('.menu').toggleClass('slide-down');
+});
 
 
 
