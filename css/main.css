@@ -24,6 +24,7 @@ a {
   text-decoration: none;
 }
 
+
 /*************
 
 HOME PAGE
@@ -93,6 +94,7 @@ HOME PAGE
   color: black;
   padding: 20px 60px;
   max-width: 1050px;
+  text-align: center;
 }
 
 /******************** 
@@ -139,10 +141,15 @@ GALLERY
 }
 
 
-.header3 p{
-  padding: 20px;
+.murray {
+  color: black;
+  font-size: .7em;
+  font-weight: bold;
 }
 
+.quote p {
+  padding: 10px;
+}
 
 
 /******************
@@ -171,7 +178,6 @@ Light Gallery
   margin-top: 100px;
   margin-bottom: 10px;
   font-size: 1em;
-  font-weight: bold;
  }
 
 .sentence {
@@ -181,6 +187,7 @@ Light Gallery
   padding: 10px;
   font-size: 1em;
   margin-top: -90px;
+  color: green;
 }
 
 img:hover {
@@ -230,10 +237,6 @@ transform:skewY(1.5deg);
 } 
 
 
-
-
-
-
 /*************
 
 ABOUT
@@ -257,21 +260,31 @@ ABOUT
   padding-top:  370px;
   border-radius: 10px;
     box-shadow: 0 0 8px 10px white inset; 
-
-  /*width: 100%;
-  margin-top: 230px;
-  border: 2.5px solid white;
-  padding-top:  600px;*/
   }
 
+.header3 {
+  text-align: center;
+}
 
-/* Footer styles */
+.header3 p{
+    padding: 20px;
+}
+
+.weaver a {
+  color: brown;
+}
+
+
+/***************
+ FOOTER 
+ ****************/
 
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
   clear: both;
+  text-align: center;
 }
 
 footer .copyright {
@@ -322,7 +335,24 @@ a.social:hover {
 
 }
 
+.top {
+  text-align: center;
+  margin-bottom: 20px;
 
+}
+
+.top a{
+  color: white;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+
+}
+
+.top a:hover {
+  background-color: red;
+}
 
 /************************ 
 MEDIA QUERIES 
@@ -338,10 +368,15 @@ MEDIA QUERIES
     width: 40%;
     height: 40%;
     background-color: transparent;
-     border-radius: 10px;
-    
+     border-radius: 10px;    
 }
 
+.quote {
+  margin-top: -30px;
+
+  }
+
+}
 
 @media screen and (min-width: 550px) {
 
@@ -384,7 +419,7 @@ HOME PAGE
 .nav {
   padding-top: 8px;
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 10px;
 }
 
@@ -406,6 +441,10 @@ HOME PAGE
   margin-top: 40px;
 }
 
+.flex {
+
+}
+
 footer {
   text-align: center;
 }
@@ -422,10 +461,12 @@ GALLLERY
 
 .gallery_blurb {
   width: 100%;
-  margin-top: 30px; 
-  border-radius: 100px;
+  margin-top: -10px; 
 }
 
+.sentence {
+    margin-top: -140px;
+}
 
 
 /*************
@@ -446,7 +487,7 @@ ABOUT PAGE
 
 .header2 {
   margin-top: 100px;
-  border-bottom: 1px solid green;
+
    
 }
 
@@ -514,7 +555,7 @@ ABOUT PAGE
   border-bottom: 1px solid green;  
   float: right;
   margin-right: 5px;
-  background-color: green;
+
 }
 
 .header3 p{
@@ -558,7 +599,9 @@ Gallery
   margin-bottom: 5px;
 }
 
-
+.quote {
+  width: 850px;
+}
 
   }
 
@@ -628,6 +671,14 @@ Gallery
    height: 200px;
 }
 
+/*******
+
+ABOUT
+*****/
+
+.header3 {
+   margin-top:40px;
+}
 /************
 
 FOOTER
@@ -697,6 +748,17 @@ FOOTER
   background-position: center;
   
 
+}
+
+
+/***********
+
+ABOUT
+*********/
+
+.header3 {
+ 
+  margin-top:60px;
 }
 
 
