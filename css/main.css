@@ -150,19 +150,15 @@ Light Gallery
 .fa-shopping-cart {
   
     color: black;
-    padding: 10px;
-<<<<<<< HEAD
-    border: 1px solid white;
-=======
-    border: 1px solid grey;
->>>>>>> master
+    padding: 10px; 
+    border: 2px solid grey;
     border-radius: 10px;
     background-color: white;
   }
 
 .fa-shopping-cart:hover {
     background-color: grey;
-    border: 1px solid white;
+    border: 2px solid white;
   }
   
 
