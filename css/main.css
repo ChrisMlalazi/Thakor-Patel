@@ -31,15 +31,15 @@ HOME PAGE
 ***************/
 
 
-
 .nav li {
   list-style: none;
   display: block;
-  border: 1px grey solid;
+  border: 1px brown solid;
   border-radius: 10px;
   margin-top: 10px;
+  margin-right: 20px;
   list-style: none;
-  margin: 10px;
+ 
 }
 
 .nav li a:hover {
@@ -65,6 +65,14 @@ HOME PAGE
   color: #FFA500;
 }
 
+.thakor {
+  float: right;
+  font-size: 1.7em;
+  padding-top: 8px;
+  margin-right: 70px;
+}
+
+
 /* Card */
 
 .card {
@@ -89,7 +97,7 @@ HEADER
   overflow: hidden;
   height: 300px;
   max-width: 960px;
-  margin-top: 250px;
+  margin-top: 70px;
   border-radius: 10px;
   box-shadow: 0 0 8px 10px white inset; 
 
@@ -114,7 +122,7 @@ GALLERY
   overflow: hidden;
   background-color: #ecc363;
   height: auto;
-  margin-top: 230px;
+  margin-top: 50px;
    /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
@@ -233,7 +241,7 @@ ABOUT
   background-position: center;
   overflow: hidden;
   width: 80%;
-  margin-top: 230px;
+  margin-top: 70px;
   border: 2.5px solid white;
   padding-top:  370px;
   border-radius: 10px;
@@ -332,6 +340,7 @@ a.social:hover {
   background-color: red;
 }
 
+
 /************************ 
 MEDIA QUERIES 
 *************************/
@@ -366,37 +375,12 @@ HOME PAGE
 *************/
 
 
-
- 
- .nav li {
-  width: 160px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  list-style: none;
-
-}
-
-
 .thakor {
-  float: left;
   font-size: 1.95em;
   padding-top: 8px;
   margin-left: 15px;
 }
 
-.nav {
-  padding-top: 8px;
-  float: right;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-
-.main-nav3 {
-
-    margin-top: -110px;
-
-}
 
 .header {
   max-width: 960px;
@@ -451,7 +435,7 @@ ABOUT PAGE
 
 
 .header2 {
-  margin-top: 100px;
+  margin-top: 10px;
 
    
 }
@@ -474,17 +458,19 @@ ABOUT PAGE
 
   @media screen and (min-width: 601px) {
 
-    /*** HOME ****/
+/******
 
- .nav li {
-  display: inline-block;
- }
+HOME
+******/
 
+.thakor {
+  float: right;
+}
 
     /***About****/
 
  .wrapped {
-  margin-top: 100px;
+  margin-top: 60px;
  
  }
 
@@ -500,7 +486,7 @@ ABOUT PAGE
   background-position: center;
   overflow: hidden;
   width: 50%;
-  margin-top: 20px;
+  margin-top: 40px;
   padding-top:  500px;
   float: left;
   margin-left: 20px;
@@ -511,10 +497,10 @@ ABOUT PAGE
 .header3 {
   width: 45%;
   margin-top: 20px;
-  border-bottom: 1px solid green;  
+  border: 1px solid grey; 
+  border-radius: 10px; 
   float: right;
   margin-right: 5px;
-
 }
 
 .header3 p{
@@ -606,11 +592,47 @@ HAMBURGER MENU
 
 }
 
+@media screen and (min-width: 701px) {
+/******
+
+HOME
+******/
+.nav {
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  bottom: 20px;
+ }
+
+
+.thakor {
+  float: left;
+  position: relative;
+  top: 30px;
+}
+
+.drawing {
+  margin-top: 25px;
+
+}
+
+
+}
+
  
 
 @media screen and (min-width: 737px) {
 
-/*  GALLERY */
+
+
+
+/*********
+  GALLERY 
+***********/
 
 .sale_icon {
   margin-bottom: -100px;
@@ -679,6 +701,9 @@ ABOUT
 
 .header3 {
    margin-top:40px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 /************
 
@@ -687,8 +712,6 @@ FOOTER
 
 
 #bottom {
-/*  display: none;*/
-/*  background-color: red;*/
     position: fixed;
     top: 610px;
     bottom: 200px;
