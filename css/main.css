@@ -90,7 +90,7 @@ HEADER
 
 .header {
   text-align: center;
-  background-image: url('../img/main_profile.jpg');
+  background-image: url('../img/thumbnails/home_profile.jpg');
   background-size: cover;
   background-repeat:  no-repeat; 
   background-position: center;
@@ -238,7 +238,7 @@ ABOUT
 .drawing {
   text-align: center;
   background-size: cover;
-  background-image: url('../img/Thakor_about.jpg');
+  background-image: url('../img/thumbnails/about_image.jpg');
   background-repeat:  no-repeat; 
   background-position: center;
   overflow: hidden;
