@@ -148,11 +148,12 @@ Light Gallery
 }
 
 .fa-shopping-cart {
-    font-size: 2em;
+  
     color: black;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid white;
     border-radius: 10px;
+    background-color: white;
   }
 
 .fa-shopping-cart:hover {
@@ -277,8 +278,9 @@ footer .copyright {
   top: -8px;
   font-size: .75em;
   color: grey;
-  font-weight: ;
-}
+  font-weight: 100;
+ 
+ }
 
 footer .copyright a {
   color: grey;
