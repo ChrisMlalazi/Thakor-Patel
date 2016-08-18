@@ -431,9 +431,6 @@ HOME PAGE
   margin-top: 40px;
 }
 
-.flex {
-
-}
 
 footer {
   text-align: center;
@@ -713,7 +710,17 @@ nav {
 }
 
 .card {
-  display: none;
+  background-color: transparent;
+  clear: both;
+  position: relative;
+  top: 400px;
+  width: 50%;
+  float: left;
+  background-color: brown;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
 }
 
 
