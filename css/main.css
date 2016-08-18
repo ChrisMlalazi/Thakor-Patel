@@ -153,8 +153,12 @@ GALLERY
   font-weight: bold;
 }
 
+.quote  {
+  background-color: rgba(0,0,0,0.2);
+}
+
 .quote p {
-  padding-top: 50px;
+  padding: 10px;
   }
 
 
@@ -388,7 +392,7 @@ MEDIA QUERIES
 }
 
 .quote {
-  margin-top: -30px;
+  margin-top: 30px;
 
   }
 
@@ -452,7 +456,7 @@ GALLLERY
 }
 
 .sentence {
-    margin-top: -140px;
+    margin-top: -70px;
 }
 
 
@@ -479,6 +483,15 @@ ABOUT PAGE
   margin-top: 70px;
   border: 2px solid white;
  
+}
+
+.quote {
+  margin-top: -30px;
+
+}
+
+.quote p {
+  padding: 50px;
 }
 
   }
@@ -584,8 +597,12 @@ Gallery
 }
 
 .quote {
+  margin-top: 20px;
   max-width: 800px;
+  border-radius: 20px;
 }
+
+
 
   }
 
@@ -623,6 +640,7 @@ HAMBURGER MENU
   .line:last-child {
     margin-bottom: 0;
   }
+
 
    
   .menu {
@@ -689,6 +707,10 @@ nav {
 /*********
   GALLERY 
 ***********/
+
+.sentence {
+  margin-top: -90px;
+}
 
 .sale_icon {
   margin-bottom: -100px;
